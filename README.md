@@ -7,7 +7,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Todo List ](#-todo-list-)
-    - [How to build the "Math-magician" website](#how-to-build-the-math-magician-website)
+    - [How to build the "BookStore" website](#how-to-build-the-bookstore-website)
   - [🛠 Walk through ](#-walk-through-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -44,7 +44,7 @@ Phase 2 - Setup2 Branch:
 All prerequisites for the second stage of the project, focused on Components, have been met. I have established a designated directory named "components" within the CRA setup, encompassing textual, visual, and stylistic resources. Within this directory, a new file named "Calculator.js" has been created. Subsequently, a React component has been developed to align with the provided design specifications.
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-### How to build the "Math-magician" website
+### How to build the "BookStore" website
 
 - 1. Use REACT to build single page application
 - 2. Apply Linters
@@ -52,7 +52,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
 ## 🛠 Walk through <a name="walk-through"></a>
 
 <ul>
-  <li><a href="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/exercises/react_tutorial.md">See the Project Requirement</a></li>
+  <li><a href="https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/sneak_peek_v3_0.md">See the Project Requirement</a></li>
   <li>If required you should personalize the content of your page. Choose a topic that is different than the one in the original design</li>
 
 
@@ -70,7 +70,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 **_feature-three_**
 
-- We will create a Math magic single page Website for the visitor eloborating different options
+- We will create a Book Store single page Website for the visitor eloborating different options
 - Choose images, text, icons, fonts.
 - Set up the repository and tools has been done in feature-one, and feature-two
 
@@ -128,7 +128,8 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 ### Key Features <a name="key-features"></a>
 
-- Perform basic calculation
+- Add new Book
+- Remove Book
 - Single page application
 - Dynamic page 
 
@@ -162,7 +163,7 @@ Clone this repository to your desired folder:
 ```sh
   cd Javascript-capston
 
-  git https://github.com/faisalakb/TodoList_React
+  git https://github.com/faisalakb/BookStore
 ```
 
 ### Install
@@ -255,7 +256,7 @@ This project is deployed at github pages you can clone it here. [Please click to
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/faisalakb/TodoList_React/issues).
+Feel free to check the [issues page](https://github.com/faisalakb/BookStore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -273,6 +274,6 @@ I would like to thank the Microverse full-stack curriculum for the inspiration a
 
 ## 📝 License <a name="license"></a>
 
-This project is under [MIT](https://github.com/faisalakb/TodoList_React/blob/setup/LICENSE) licensed.
+This project is under [MIT](https://github.com/faisalakb/BookStore/blob/setup/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
