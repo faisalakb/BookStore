@@ -6,7 +6,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Todo List ](#-todo-list-)
+- [📖 BookStore ](#-Book-Store-)
     - [How to build the "BookStore" website](#how-to-build-the-bookstore-website)
   - [🛠 Walk through ](#-walk-through-)
   - [🛠 Built With ](#-built-with-)
@@ -29,7 +29,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Todo List <a name="about-project"></a>
+# 📖 BookStore <a name="about-project"></a>
 
 "BookStore" involves the development of a Single Page application using an external API.
 
@@ -131,7 +131,8 @@ All prerequisites for the second stage of the project, focused on Components, ha
 - Add new Book
 - Remove Book
 - Single page application
-- Dynamic page 
+- Dynamic page
+- Redux 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,43 +180,6 @@ Install this project with:
 
 To run the project, execute the following command:
 run live server
-
-<!--
-```sh
-  rails server
-```Product
-￼Solutions
-￼Open Source
-Pricing
-￼
-Search or jump to...
-Sign in
-Sign up
-faisalakb
-/
-math-magic
-Public
-NotificationsFork 0
- Star 0
-￼
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-faisalakb/math-magic
- 9f69c8291f 
- 3 branches
- 0 tags
-Go to file
-Code
-Latest commit
-￼
-faisalakb updated README File
-
--->
 
 ### Run tests
 
