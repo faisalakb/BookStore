@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { v4 as uuid4 } from 'uuid';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchBooks, addBookdata, removeBookdata } from '../redux/books/bookSlice';
-import InpBook from './InpBook'; // Assuming this is your input component
+import InpBook from './InpBook';
 
 const BookDisplay = () => {
   const dispatch = useDispatch();
@@ -40,7 +40,6 @@ const BookDisplay = () => {
   };
 
   const deleteBook = (itemId) => {
-    console.log(itemId);
     dispatch(removeBookdata(itemId))
       .then(() => {
         dispatch(fetchBooks()); // Fetch the updated list of books

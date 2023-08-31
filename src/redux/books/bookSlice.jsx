@@ -9,7 +9,6 @@ export const fetchBooks = createAsyncThunk('fetchBooks', async () => {
 });
 
 export const addBookdata = createAsyncThunk('addBookdata', async (bookInfo) => {
-  console.log('calling from addbook data');
   const response = await axios.post(url, bookInfo);
   return response.data;
 });
