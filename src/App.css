@@ -306,11 +306,10 @@ ul {
 .inputContainer {
   display: flex;
   flex-direction: row;
-  column-gap: 18%;
 }
 
 .inpBtn {
-  width: 14rem;
+  width: 11.5rem;
   height: 2.813rem;
   margin: 1.188rem 0 0 2.125rem;
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
@@ -320,11 +319,10 @@ ul {
   font-weight: 400;
   font-size: medium;
   border: none;
-  margin-left: -20rem;
 }
 
 .inpData {
-  width: 34rem;
+  width: 31rem;
   height: 1.2rem;
   margin: 1.188rem 2.125rem 0 0;
   padding: 0.813rem 35.688rem 0.813rem 1.063rem;
@@ -339,7 +337,6 @@ ul {
   line-height: normal;
   letter-spacing: -0.15px;
   color: #c4c4c4;
-  margin-right: -20rem;
 }
 
 #color {
