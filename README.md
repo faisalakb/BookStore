@@ -133,6 +133,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
 - Single page application
 - Dynamic page
 - Redux 
+- Styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
