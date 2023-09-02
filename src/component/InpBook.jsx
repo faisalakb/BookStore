@@ -5,17 +5,17 @@ const InpBook = ({
   value, getData, selectedType, onSelectType, dataSubmit,
 }) => (
   <div className="MainInp">
-    <h2 className="inpHeading">Add New Book</h2>
+    <div className="inpHeading">Add New Book</div>
     <div className="inputContainer">
       <input className="inpData" type="text" value={value} onChange={getData} />
-      <form>
+      <form className="cateSelect">
         <select name="color" id="color" value={selectedType} onChange={onSelectType}>
           <option value="Action">Action</option>
           <option value="Science Fiction">Science Fiction</option>
           <option value="Economy">Economy</option>
         </select>
       </form>
-      <button type="button" className="inpBtn" onClick={dataSubmit}>Add</button>
+      <button type="button" className="inpBtn" onClick={dataSubmit}>ADD BOOK</button>
     </div>
   </div>
 );

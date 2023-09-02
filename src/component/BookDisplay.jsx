@@ -10,7 +10,7 @@ import 'react-circular-progressbar/dist/styles.css';
 const BookDisplay = () => {
   const dispatch = useDispatch();
   const userState = useSelector((state) => state.user);
-  const [bookTitle, setBookTitle] = useState('');
+  const [bookTitle, setBookTitle] = useState('Book title');
   const [selectedType, setSelectedType] = useState('Category');
 
   const bookChapters = ['Chapter 17', 'Chapter 3: A Lesson Learned', 'Introduction', 'Chapter 11', 'Chapter 7: Web Programming'];
@@ -75,18 +75,21 @@ const BookDisplay = () => {
       {userState.isLoading ? (
         <h1>Loading ...</h1>
       ) : (
-        <div>
+        <div className="container">
           {Object.keys(userState.data).map((bookId) => (
             <div key={bookId}>
               <ul>
                 {userState.data[bookId].map((book) => (
                   <li className="itemContainer" key={bookId}>
-                    <section className="bookInfo">
-                      <p>{book.category}</p>
-                      <h2>{book.title}</h2>
-                      <h5>{book.author}</h5>
+                    <span className="bookInfo">
+                      <span className="bookData">
+                        <span className="categ">{book.category}</span>
+                        <span className="bookTitle">{book.title}</span>
+                        <span className="bookAuthor">{book.author}</span>
+                      </span>
                       <ul className="eventItem">
                         <li>Comments</li>
+                        <div className="Line-2" />
                         <li>
                           <button
                             className="removeButton"
@@ -96,24 +99,26 @@ const BookDisplay = () => {
                             Remove
                           </button>
                         </li>
+                        <div className="Line-2" />
                         <li>Edit</li>
                       </ul>
-                    </section>
-                    <section className="status">
+                    </span>
+                    <span className="status">
                       <CircularProgressbar className="progressCircle" value={percentage} />
                       <div className="percent">
                         {getRandomNumber()}
                         <span>&#37;</span>
                       </div>
-                      <p className="comp">Completed</p>
-                    </section>
-                    <section className="progress">
-                      <p>Current Chapter</p>
-                      <h5>{getRandomChapter()}</h5>
+                      <span className="comp">Completed</span>
+                    </span>
+                    <span className="Line-3" />
+                    <span className="progress">
+                      <span className="cc">Current Chapter</span>
+                      <span className="rc">{getRandomChapter()}</span>
                       <button type="button" className="proBtn">
                         UPDATE PROGRESS
                       </button>
-                    </section>
+                    </span>
                   </li>
                 ))}
               </ul>

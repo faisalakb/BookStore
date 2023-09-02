@@ -8,11 +8,11 @@ const Header = () => (
       Bookstore CMS
     </span>
     <ul className="navIcons">
-      <li>
-        <NavLink exact to="/">Book</NavLink>
+      <li className="Books">
+        <NavLink className="nav-link" exact to="/">BOOKS</NavLink>
       </li>
-      <li>
-        <NavLink to="/categories">Categories</NavLink>
+      <li className="Category">
+        <NavLink className="nav-link" to="/categories">CATEGORIES</NavLink>
       </li>
     </ul>
     <img className="Oval" src={profImg} alt="img not found" />
